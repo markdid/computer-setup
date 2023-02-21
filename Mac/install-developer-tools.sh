@@ -27,6 +27,32 @@ brew install node
 # vim ~/.zshrc
 # export PATH="$PATH:$HOME/Documents/development/flutter/bin"
 
+# For Mac User
+
+# Set Java_Home path using below article & then after applying below command
+
+# https://mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-x/#what-is-usrlibexecjava-home
+
+# after that type below command on terminal:
+
+# (for those with a jbr that would be electric eel Android studio) use the following Commands to run in terminal: {
+
+# cd /Applications/Android\ Studio.app/Contents/jbr
+# ln -s ../jbr jdk
+# ln -s "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin" jdk
+# Then go to finder and find Android studio:
+
+# right click and show package contents
+# contents-then create new folder called jre
+# copy contents of the jbr folder and paste into jre folder
+# Flutter doctor -v should work now!! } else proceed with the method below.
+
+# cd /Applications/Android\ Studio.app/Contents/jre
+# ln -s ../jre jdk
+# ln -s "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin" jdk
+# flutter doctor -v
+
+
 # Install Rust compiler and Cargo package manager
 # curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
