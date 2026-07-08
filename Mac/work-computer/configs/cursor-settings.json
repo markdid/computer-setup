@@ -1,0 +1,21 @@
+{
+    "window.commandCenter": true,
+    "dart.flutterSdkPath": "/Users/mark/fvm/versions/3.29.3/bin//flutter",
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.showTabs": "single",
+    "editor.formatOnSave": true,
+    "dart.lineLength": 120,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "dart.devToolsBrowser": "default",
+    "cursor.composer.usageSummaryDisplay": "always",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.accessibilitySupport": "off",
+    "window.autoDetectColorScheme": false
+}
