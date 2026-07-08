@@ -16,6 +16,7 @@ This folder captures the parts of this Mac setup that look intentionally configu
   - `configs/cursor-settings.json`
   - `configs/cursor-keybindings.json`
   - `configs/vscode-settings.json`
+  - `configs/logi-options/` (Logi Options+ mouse/keyboard mappings)
 - Human-readable notes on installed apps and macOS preferences:
   - `apps.md`
   - `macos-preferences.md`
@@ -44,6 +45,18 @@ This folder captures the parts of this Mac setup that look intentionally configu
   - Finder defaults to column/list-oriented metadata-rich views
 - Terminal uses the `Clear Dark` profile by default.
 - Rectangle is configured with custom shortcuts and snapping enabled.
+- Logi Options+ mappings are saved for MX Master 3S, MX Vertical, and onboarded keyboard device `2b383`.
+
+## Restore Logi Options+
+
+After installing Logi Options+ on a new machine:
+
+1. Quit Logi Options+ completely.
+2. Copy the files from `configs/logi-options/` into `~/Library/Application Support/LogiOptionsPlus/`.
+3. Prefer restoring `settings.db` and `macros.db` for the most reliable result.
+4. Relaunch Logi Options+ and reconnect your devices.
+
+See `configs/logi-options/mappings.md` for a human-readable summary of button assignments.
 
 ## Things you may want to add later
 
@@ -52,7 +65,7 @@ These are not currently present as first-class tracked dotfiles here, but may be
 - `macos-defaults.sh` to codify Dock/Finder/screenshot/trackpad defaults
 - `mas-apps.txt` after installing `mas` so App Store installs can be restored exactly
 - `extensions.txt` for VS Code/Cursor extensions
-- `restore-checklist.md` with manual steps for tools like Cursor login, Arc, Slack, Logi Options+, and monitor tools
+- `restore-checklist.md` with manual steps for tools like Cursor login, Arc, Slack, and monitor tools
 
 ## Notes
 
